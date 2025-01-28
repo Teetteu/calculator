@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p></p>
+        </nav>
+    </header>
+    <main>
+
+        <div id="Calculadora"></div>
+        <h1>Calculadora</h1>
+        <input type="text" name="" id="display" disabled>
+        <div id="keys">
+            <button onclick="botaoclear()">❌</button>
+            <button onclick="botaoclear()">CE</button>
+            <button onclick="botao('%')">%</button>
+            <button onclick="botao('*')" id="x">x</button>
+            <button onclick="botao('9')">9</button>
+            <button onclick="botao('8')">8</button>
+            <button onclick="botao('7')">7</button>
+            <button onclick="botao('-')">-</button>
+            <button onclick="botao('6')">6</button>
+            <button onclick="botao('5')">5</button>
+            <button onclick="botao('4')">4</button>
+            <button onclick="botao('/')">/</button>
+            <button onclick="botao('3')">3</button>
+            <button onclick="botao('2')">2</button>
+            <button onclick="botao('1')">1</button>
+            <button id="mais" onclick="botao('+')">+</button>
+            <button onclick="botao('0')">0</button>
+            <button onclick="botao('.')">.</button>
+            <button id="igual" onclick="botaoresultado('=')">=</button>
+
+
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
